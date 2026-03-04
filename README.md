@@ -59,8 +59,11 @@ Optimises content for AI discovery systems.
 Capabilities:
 
 • Citation opportunity detection
+
 • AI readability scoring
+
 • Structured data validation
+
 • Content gap detection
 
 ## 3. Machine Customer Simulation
@@ -70,8 +73,11 @@ Models how AI agents choose products.
 Simulation features:
 
 • Position bias modelling
+
 • Sponsored placement penalties
+
 • Price vs quality trade-offs
+
 • Model-specific decision logic
 
 Primary output:
@@ -85,7 +91,9 @@ Connects marketing influence to measurable business outcomes.
 Capabilities:
 
 • Marketing mix modelling
+
 • Geo lift testing
+
 • Conversational influence attribution
 
 Primary metrics:
@@ -100,9 +108,13 @@ Predicts long-term customer value.
 Capabilities:
 
 • Churn prediction
+
 • Upgrade probability
+
 • Service attachment modelling
+
 • Customer lifetime value forecasting
+
 
 # High Level Architecture
 
