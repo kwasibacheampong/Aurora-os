@@ -4,6 +4,24 @@
 
 Aurora OS is a conceptual platform designed to help organisations operate in a world where **AI increasingly mediates discovery and purchasing decisions.**
 
+**Interactive Platform Architecture**
+
+Explore the full Aurora platform architecture and capability map here:
+
+Aurora OS Capability Architecture
+https://automotive-growth-ai-framework.base44.app
+
+This interactive architecture shows:
+
+• System capability layers
+• Platform intelligence modules
+• Data and decision flows
+• Growth intelligence feedback loops
+
+The Base44 architecture provides a visual walkthrough of how Aurora connects:
+
+AI Discovery → Influence Intelligence → Machine Decision Simulation → Demand Incrementality → Customer Lifetime Value.
+
 Two structural shifts are reshaping digital marketing:
 
 • Conversational AI is replacing traditional search
