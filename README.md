@@ -48,9 +48,7 @@ Capabilities:
 
 • Competitor benchmarking
 
-Primary output:
-
-Influence Share Index (ISI)
+Primary output: Influence Share Index (ISI)
 
 ## 2. Generative Engine Optimization (GEO)
 
@@ -80,9 +78,7 @@ Simulation features:
 
 • Model-specific decision logic
 
-Primary output:
-
-Machine Selection Probability
+Primary output: Machine Selection Probability
 
 ## 4. Demand & Incrementality Engine
 
@@ -98,8 +94,9 @@ Capabilities:
 
 Primary metrics:
 
-Incremental Demand Yield
-Intent Density Score
+• Incremental Demand Yield
+
+• Intent Density Score
 
 ## 5. Lifecycle & LTV Intelligence
 
