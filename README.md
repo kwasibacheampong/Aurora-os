@@ -7,6 +7,7 @@ Aurora OS is a conceptual platform designed to help organisations operate in a w
 Two structural shifts are reshaping digital marketing:
 
 • Conversational AI is replacing traditional search
+
 • AI agents are increasingly acting as purchasing decision-makers
 
 Aurora OS provides the infrastructure needed to optimise for both **human customers and machine customers.**
