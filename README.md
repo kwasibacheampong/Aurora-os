@@ -7,7 +7,7 @@ Aurora OS is a conceptual platform designed to help organisations operate in a w
 **Interactive Platform Architecture**
 
 Explore the full Aurora platform architecture and capability map here: Aurora OS Capability Architecture
-https://automotive-growth-ai-framework.base44.app
+https://aurora-zero-clicks-ai-evolution.base44.app
 
 This interactive architecture shows:
 
