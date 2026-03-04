@@ -134,28 +134,28 @@ Execution Systems
 Aurora OS is designed for scalable cloud infrastructure.
 
 Backend
-Python
-FastAPI
+• Python
+• FastAPI
 
 Frontend
-React
-Next.js
+• React
+• Next.js
 
 Data Layer
-PostgreSQL
-Snowflake / BigQuery
-Redis
+• PostgreSQL
+• Snowflake / BigQuery
+• Redis
 
 Machine Learning
-PyTorch
-XGBoost
+• PyTorch
+• XGBoost
 
 Vector Infrastructure
-Pinecone / Weaviate
+• Pinecone / Weaviate
 
 Containerisation
-Docker
-Kubernetes
+• Docker
+• Kubernetes
 
 # Strategic Category
 
@@ -165,9 +165,9 @@ Machine & Human Customer Optimization (MHCO)
 
 The platform helps organisations optimise for:
 
-Human customers
-Machine customers
-AI-driven discovery environments
+• Human customers
+• Machine customers
+• AI-driven discovery environments
 
 # Why This Matters
 
