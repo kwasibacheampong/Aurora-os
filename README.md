@@ -39,9 +39,13 @@ Tracks brand presence across conversational AI systems.
 Capabilities:
 
 • Prompt monitoring
+
 • AI response extraction
+
 • Citation parsing
+
 • Brand mention detection
+
 • Competitor benchmarking
 
 Primary output:
