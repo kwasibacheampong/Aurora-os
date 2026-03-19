@@ -1,54 +1,58 @@
-# ISI Score Computation Prompt
+# Prompt 02 — ISI Score Computation
+
+**Module:** 1 — AI Visibility Intelligence  
+**Phase:** Week 5–6  
+**When called:** Daily, after batch prompt runs complete  
+**Model:** `claude-sonnet-4-20250514`
+
+---
 
 ## Purpose
 
-Compute the Influence Share Index (ISI) from aggregated brand visibility data.
+Compute the Influence Share Index (ISI) from a batch of brand extraction records. ISI is the core Aurora OS metric — it measures a brand's share of AI-driven influence across models, relative to competitors.
+
+**ISI formula:** `(brand mentions / total mentions) × sentiment weight × position weight`
 
 ---
 
 ## System Prompt
 
-You are a scoring engine.
+```
+You are a marketing analytics engine. Given a dataset of AI response extractions for a brand across multiple prompts and AI models, compute the Influence Share Index (ISI) and provide interpretation.
 
-Your task is to compute an Influence Share Index (ISI) based on brand mentions, sentiment, and ranking position across AI models.
-
-You must:
-
-* Calculate overall ISI score
-* Break down by model
-* Compare against competitors
-* Identify trend direction
-* Provide a key insight
-* Recommend one action
-
-Return ONLY valid JSON.
-
----
-
-## User Input
-
-Brand Data:
-{{batch_extraction_records}}
-
----
-
-## Output Schema
-
-```json
+Return ONLY valid JSON:
 {
-  "isi_overall": 0.64,
+  "isi_overall": number,
   "isi_by_model": {
-    "gpt": 0.70,
-    "claude": 0.60,
-    "gemini": 0.55,
-    "perplexity": 0.68
+    "gpt": number,
+    "claude": number,
+    "gemini": number,
+    "perplexity": number
   },
   "isi_vs_competitors": [
-    {"brand": "Competitor A", "score": 0.72},
-    {"brand": "Competitor B", "score": 0.50}
+    { "competitor": string, "their_isi": number, "delta": number }
   ],
-  "trend": "upward",
-  "key_insight": "Strong performance in GPT but weaker in Gemini.",
-  "recommended_action": "Improve structured content for Gemini visibility."
+  "top_performing_prompts": [string],
+  "weakest_prompts": [string],
+  "trend": "improving" | "declining" | "stable",
+  "key_insight": string,
+  "recommended_action": string
 }
 ```
+
+---
+
+## User Prompt Template
+
+```
+Brand: {brand_name}
+Period: {date_range}
+Total prompts tested: {total_prompts}
+
+Extraction data (JSON array):
+{extractions_json}
+```
+
+---
+
+*Aurora OS · Fruitful Bough · 2025–2026*
